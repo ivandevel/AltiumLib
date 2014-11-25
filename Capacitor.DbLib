@@ -1,0 +1,69 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Capacitors.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Capacitors.mdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Capacitors Networks SMD
+[Table1]
+SchemaName=
+TableName=Capacitors Networks SMD
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=Capacitors Networks THD
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=Capacitors SMD Yageo
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=283|Library Ref0=139|Library Path0=130|Footprint Path0=110|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=63|Status0=106|Voltage0=63|TC0=81|Tolerance0=72|Part Description0=334|Manufacturer0=103|Manufacturer Part Number0=205|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=205|Manufacturer1 ComponentHeight0=198|HelpURL0=501|Author0=91|CreateDate0=80|LatestRevisionDate0=120|Table0=89
+[Table4]
+SchemaName=
+TableName=Capacitors THD
+Enabled=False
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Capacitors Networks SMD.Part Number|TableNameOnly=Capacitors Networks SMD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Capacitors Networks SMD.Library Ref|TableNameOnly=Capacitors Networks SMD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Capacitors Networks SMD.Library Path|TableNameOnly=Capacitors Networks SMD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Capacitors Networks SMD.Footprint Path|TableNameOnly=Capacitors Networks SMD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Capacitors Networks SMD.Footprint Ref|TableNameOnly=Capacitors Networks SMD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Capacitors SMD Yageo.Part Number|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Capacitors SMD Yageo.Library Ref|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Capacitors SMD Yageo.Library Path|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Capacitors SMD Yageo.Footprint Path|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Capacitors SMD Yageo.Footprint Ref|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
