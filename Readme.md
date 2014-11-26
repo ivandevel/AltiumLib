@@ -1,0 +1,1 @@
+Altium Database Library by Ivan Kuznetsov
