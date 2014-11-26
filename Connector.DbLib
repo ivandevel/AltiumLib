@@ -1,18 +1,18 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\\Connectors.mdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Connector.accdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access
-LibraryDatabasePath=\Connectors.mdb
+LibraryDatabaseType=Microsoft Access 2007
+LibraryDatabasePath=Connector.accdb
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
@@ -26,9 +26,18 @@ TableName=AUK
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Device0=56|Footprint0=72|PackageDescription0=124|Status0=55|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=59|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=50|LatestRevisionDate10=126|Table10=56
+[Table2]
+SchemaName=
+TableName=HIROSE
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=MOLEX
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=AUK.Part Number|TableNameOnly=AUK|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -39,3 +48,23 @@ Options=FieldName=AUK.Library Path|TableNameOnly=AUK|FieldNameOnly=Library Path|
 Options=FieldName=AUK.Footprint Path|TableNameOnly=AUK|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=AUK.Footprint Ref|TableNameOnly=AUK|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=HIROSE.Part Number|TableNameOnly=HIROSE|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=HIROSE.Library Ref|TableNameOnly=HIROSE|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=HIROSE.Library Path|TableNameOnly=HIROSE|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=HIROSE.Footprint Path|TableNameOnly=HIROSE|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=HIROSE.Footprint Ref|TableNameOnly=HIROSE|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=MOLEX.Part Number|TableNameOnly=MOLEX|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=MOLEX.Library Ref|TableNameOnly=MOLEX|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
