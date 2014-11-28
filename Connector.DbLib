@@ -25,7 +25,7 @@ SchemaName=
 TableName=AUK
 Enabled=True
 UserWhere=0
-UserWhereText=
+UserWhereText=[Part Number] = '{Part Number}'
 [Table2]
 SchemaName=
 TableName=DEGSON
@@ -41,6 +41,12 @@ UserWhereText=
 [Table4]
 SchemaName=
 TableName=MOLEX
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=OTHER
 Enabled=True
 UserWhere=0
 UserWhereText=
@@ -84,3 +90,13 @@ Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library P
 Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
 Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=OTHER.Part Number|TableNameOnly=OTHER|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=OTHER.Library Ref|TableNameOnly=OTHER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=OTHER.Library Path|TableNameOnly=OTHER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=OTHER.Footprint Path|TableNameOnly=OTHER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=OTHER.Footprint Ref|TableNameOnly=OTHER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
