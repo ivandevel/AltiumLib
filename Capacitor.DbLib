@@ -26,6 +26,18 @@ TableName=Capacitors SMD Yageo
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table2]
+SchemaName=
+TableName=Ceramic THD
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=Electrolytic THD
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=Capacitors SMD Yageo.Part Number|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -36,3 +48,23 @@ Options=FieldName=Capacitors SMD Yageo.Library Path|TableNameOnly=Capacitors SMD
 Options=FieldName=Capacitors SMD Yageo.Footprint Path|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=Capacitors SMD Yageo.Footprint Ref|TableNameOnly=Capacitors SMD Yageo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Ceramic THD.Part Number|TableNameOnly=Ceramic THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Ceramic THD.Library Ref|TableNameOnly=Ceramic THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Ceramic THD.Library Path|TableNameOnly=Ceramic THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Ceramic THD.Footprint Path|TableNameOnly=Ceramic THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Ceramic THD.Footprint Ref|TableNameOnly=Ceramic THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Electrolytic THD.Part Number|TableNameOnly=Electrolytic THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Electrolytic THD.Library Ref|TableNameOnly=Electrolytic THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Electrolytic THD.Library Path|TableNameOnly=Electrolytic THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Electrolytic THD.Footprint Path|TableNameOnly=Electrolytic THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Electrolytic THD.Footprint Ref|TableNameOnly=Electrolytic THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

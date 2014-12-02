@@ -26,6 +26,12 @@ TableName=Cores
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table2]
+SchemaName=
+TableName=Inductors THD
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=Cores.Part Number|TableNameOnly=Cores|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -36,3 +42,13 @@ Options=FieldName=Cores.Library Path|TableNameOnly=Cores|FieldNameOnly=Library P
 Options=FieldName=Cores.Footprint Path|TableNameOnly=Cores|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=Cores.Footprint Ref|TableNameOnly=Cores|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Inductors THD.Part Number|TableNameOnly=Inductors THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Inductors THD.Library Ref|TableNameOnly=Inductors THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Inductors THD.Library Path|TableNameOnly=Inductors THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Inductors THD.Footprint Path|TableNameOnly=Inductors THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Inductors THD.Footprint Ref|TableNameOnly=Inductors THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
