@@ -19,16 +19,16 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=MLCC (Yageo)
+LastFocusedTable=NTC
 [Table1]
 SchemaName=
-TableName=MLCC (Yageo)
+TableName=NTC
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table2]
 SchemaName=
-TableName=NTC
+TableName=SMD (Yageo)
 Enabled=True
 UserWhere=0
 UserWhereText=
@@ -39,25 +39,25 @@ Enabled=True
 UserWhere=0
 UserWhereText=
 [FieldMap1]
-Options=FieldName=MLCC (Yageo).Part Number|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap2]
-Options=FieldName=MLCC (Yageo).Library Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap3]
-Options=FieldName=MLCC (Yageo).Library Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap4]
-Options=FieldName=MLCC (Yageo).Footprint Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap5]
-Options=FieldName=MLCC (Yageo).Footprint Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap6]
 Options=FieldName=NTC.Part Number|TableNameOnly=NTC|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
+[FieldMap2]
 Options=FieldName=NTC.Library Ref|TableNameOnly=NTC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap8]
+[FieldMap3]
 Options=FieldName=NTC.Library Path|TableNameOnly=NTC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
+[FieldMap4]
 Options=FieldName=NTC.Footprint Path|TableNameOnly=NTC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
+[FieldMap5]
 Options=FieldName=NTC.Footprint Ref|TableNameOnly=NTC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=SMD (Yageo).Part Number|TableNameOnly=SMD (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=SMD (Yageo).Library Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=SMD (Yageo).Library Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=SMD (Yageo).Footprint Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=SMD (Yageo).Footprint Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
 Options=FieldName=THD.Part Number|TableNameOnly=THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
