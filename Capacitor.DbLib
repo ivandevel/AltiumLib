@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Ceramic SMD
+LastFocusedTable=Film THD
 [Table1]
 SchemaName=
 TableName=Ceramic SMD
@@ -40,16 +40,28 @@ UserWhere=0
 UserWhereText=
 [Table4]
 SchemaName=
+TableName=Film THD
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=98|Library Ref0=97|Library Path0=130|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|Footprint Path0=127|Footprint Ref0=202|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
+[Table5]
+SchemaName=
 TableName=MLCC (Yageo)
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table5]
+[Table6]
 SchemaName=
 TableName=Tantalum
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=124|Library Ref0=77|Library Path0=130|Footprint Path0=126|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=55
 [FieldMap1]
 Options=FieldName=Ceramic SMD.Part Number|TableNameOnly=Ceramic SMD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -81,22 +93,32 @@ Options=FieldName=Electrolytic THD.Footprint Path|TableNameOnly=Electrolytic THD
 [FieldMap15]
 Options=FieldName=Electrolytic THD.Footprint Ref|TableNameOnly=Electrolytic THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=MLCC (Yageo).Part Number|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Film THD.Part Number|TableNameOnly=Film THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=MLCC (Yageo).Library Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Film THD.Library Ref|TableNameOnly=Film THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=MLCC (Yageo).Library Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Film THD.Library Path|TableNameOnly=Film THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=MLCC (Yageo).Footprint Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Film THD.Footprint Path|TableNameOnly=Film THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=MLCC (Yageo).Footprint Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Film THD.Footprint Ref|TableNameOnly=Film THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=Tantalum.Part Number|TableNameOnly=Tantalum|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MLCC (Yageo).Part Number|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=Tantalum.Library Ref|TableNameOnly=Tantalum|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MLCC (Yageo).Library Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=Tantalum.Library Path|TableNameOnly=Tantalum|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MLCC (Yageo).Library Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=Tantalum.Footprint Path|TableNameOnly=Tantalum|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MLCC (Yageo).Footprint Path|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
+Options=FieldName=MLCC (Yageo).Footprint Ref|TableNameOnly=MLCC (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Tantalum.Part Number|TableNameOnly=Tantalum|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Tantalum.Library Ref|TableNameOnly=Tantalum|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Tantalum.Library Path|TableNameOnly=Tantalum|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Tantalum.Footprint Path|TableNameOnly=Tantalum|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
 Options=FieldName=Tantalum.Footprint Ref|TableNameOnly=Tantalum|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
