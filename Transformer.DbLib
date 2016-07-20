@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Cores
+LastFocusedTable=THD
 [Table1]
 SchemaName=
 TableName=Cores
@@ -32,18 +32,27 @@ TableName=Inductors SMD Yageo
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Part Number0=102|Library Path0=125|Footprint Path0=125|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=118|Manufacturer Part Number 20=169
 [Table3]
 SchemaName=
 TableName=SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=112|Library Ref0=81|Library Path0=125|Footprint Path0=125|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Value0=52|Status0=55|Power0=55|Resistance0=77|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table4]
 SchemaName=
 TableName=THD
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=154|Library Ref0=81|Library Path0=125|Footprint Path0=125|Footprint Ref0=108|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Value0=52|Status0=55|Power0=55|Resistance0=77|Tolerance0=72|Part Description0=127|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=81
 [FieldMap1]
 Options=FieldName=Cores.Part Number|TableNameOnly=Cores|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -55,32 +64,40 @@ Options=FieldName=Cores.Footprint Path|TableNameOnly=Cores|FieldNameOnly=Footpri
 [FieldMap5]
 Options=FieldName=Cores.Footprint Ref|TableNameOnly=Cores|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Inductors SMD Yageo.Library Ref|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cores.Comment|TableNameOnly=Cores|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Inductors SMD Yageo.Part Number|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Library Ref|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Inductors SMD Yageo.Library Path|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Part Number|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Inductors SMD Yageo.Footprint Path|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Library Path|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Inductors SMD Yageo.Footprint Ref|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Footprint Path|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=SMD.Part Number|TableNameOnly=SMD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Footprint Ref|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=SMD.Library Ref|TableNameOnly=SMD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors SMD Yageo.Comment|TableNameOnly=Inductors SMD Yageo|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=SMD.Library Path|TableNameOnly=SMD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Part Number|TableNameOnly=SMD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=SMD.Footprint Path|TableNameOnly=SMD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Library Ref|TableNameOnly=SMD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=SMD.Footprint Ref|TableNameOnly=SMD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Library Path|TableNameOnly=SMD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=THD.Part Number|TableNameOnly=THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Footprint Path|TableNameOnly=SMD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=THD.Library Ref|TableNameOnly=THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Footprint Ref|TableNameOnly=SMD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=THD.Library Path|TableNameOnly=THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD.Comment|TableNameOnly=SMD|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=THD.Footprint Path|TableNameOnly=THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=THD.Part Number|TableNameOnly=THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
+Options=FieldName=THD.Library Ref|TableNameOnly=THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=THD.Library Path|TableNameOnly=THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=THD.Footprint Path|TableNameOnly=THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
 Options=FieldName=THD.Footprint Ref|TableNameOnly=THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=THD.Comment|TableNameOnly=THD|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

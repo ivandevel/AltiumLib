@@ -36,3 +36,5 @@ Options=FieldName=Mechanics.Library Path|TableNameOnly=Mechanics|FieldNameOnly=L
 Options=FieldName=Mechanics.Footprint Path|TableNameOnly=Mechanics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=Mechanics.Footprint Ref|TableNameOnly=Mechanics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Mechanics.Comment|TableNameOnly=Mechanics|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

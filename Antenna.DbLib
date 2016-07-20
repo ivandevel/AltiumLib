@@ -36,3 +36,5 @@ Options=FieldName=Antenna.Library Path|TableNameOnly=Antenna|FieldNameOnly=Libra
 Options=FieldName=Antenna.Footprint Path|TableNameOnly=Antenna|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=Antenna.Footprint Ref|TableNameOnly=Antenna|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Antenna.Comment|TableNameOnly=Antenna|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=NTC
+LastFocusedTable=THD
 [Table1]
 SchemaName=
 TableName=NTC
@@ -31,13 +31,19 @@ SchemaName=
 TableName=SMD (Yageo)
 Enabled=True
 UserWhere=0
-UserWhereText=
+UserWhereText=[Part Number] = '{Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=331|Library Ref0=89|Library Path0=122|Footprint Path0=154|Footprint Ref0=129|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=129|PackageDescription0=124|Pin Count0=74|Value0=63|Status0=106|Power0=55|TC0=72|Voltage0=63|Tolerance0=72|Part Description0=366|Manufacturer0=131|Manufacturer Part Number0=201|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=200|Manufacturer1 ComponentHeight0=198|HelpURL0=458|Author0=91|CreateDate0=80|LatestRevisionDate0=120|Table0=81
 [Table3]
 SchemaName=
 TableName=THD
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=304|Library Ref0=195|Library Path0=122|Footprint Path0=102|Footprint Ref0=165|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=165|PackageDescription0=124|Pin Count0=74|Value0=63|Status0=103|Power0=55|TC0=91|Voltage0=63|Tolerance0=72|Part Description0=453|Manufacturer0=148|Manufacturer Part Number0=244|Case0=164|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=158|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=491|Author0=91|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [FieldMap1]
 Options=FieldName=NTC.Part Number|TableNameOnly=NTC|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -49,22 +55,28 @@ Options=FieldName=NTC.Footprint Path|TableNameOnly=NTC|FieldNameOnly=Footprint P
 [FieldMap5]
 Options=FieldName=NTC.Footprint Ref|TableNameOnly=NTC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=SMD (Yageo).Part Number|TableNameOnly=SMD (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NTC.Comment|TableNameOnly=NTC|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=SMD (Yageo).Library Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Part Number|TableNameOnly=SMD (Yageo)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=SMD (Yageo).Library Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Library Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=SMD (Yageo).Footprint Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Library Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=SMD (Yageo).Footprint Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Footprint Path|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=THD.Part Number|TableNameOnly=THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Footprint Ref|TableNameOnly=SMD (Yageo)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=THD.Library Ref|TableNameOnly=THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD (Yageo).Comment|TableNameOnly=SMD (Yageo)|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=THD.Library Path|TableNameOnly=THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=THD.Part Number|TableNameOnly=THD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=THD.Footprint Path|TableNameOnly=THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=THD.Library Ref|TableNameOnly=THD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
+Options=FieldName=THD.Library Path|TableNameOnly=THD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=THD.Footprint Path|TableNameOnly=THD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
 Options=FieldName=THD.Footprint Ref|TableNameOnly=THD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=THD.Comment|TableNameOnly=THD|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

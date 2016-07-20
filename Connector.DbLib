@@ -26,30 +26,54 @@ TableName=AUK
 Enabled=True
 UserWhere=0
 UserWhereText=[Part Number] = '{Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=89|Library Ref0=83|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=89|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=435|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table2]
 SchemaName=
 TableName=DEGSON
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=117|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=117|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=117|PackageDescription0=124|Pin Count0=74|Case0=117|Family0=56|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=117|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=294|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=53
 [Table3]
 SchemaName=
 TableName=HIROSE
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=97|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=97|PackageDescription0=204|Pin Count0=74|Case0=97|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=97|Part Description0=204|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=277|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=69|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table4]
 SchemaName=
 TableName=MOLEX
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Ref0=98|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=68|Part Description0=332|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=293|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table5]
+SchemaName=
+TableName=MORETHANALL
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=116|Library Ref0=116|Library Path0=135|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Footprint Path0=135|Footprint Ref0=116|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=116|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=426|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=85
+[Table6]
 SchemaName=
 TableName=OTHER
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=76|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=97|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [FieldMap1]
 Options=FieldName=AUK.Part Number|TableNameOnly=AUK|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -61,42 +85,64 @@ Options=FieldName=AUK.Footprint Path|TableNameOnly=AUK|FieldNameOnly=Footprint P
 [FieldMap5]
 Options=FieldName=AUK.Footprint Ref|TableNameOnly=AUK|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=DEGSON.Part Number|TableNameOnly=DEGSON|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=AUK.Comment|TableNameOnly=AUK|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=DEGSON.Library Ref|TableNameOnly=DEGSON|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Part Number|TableNameOnly=DEGSON|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=DEGSON.Library Path|TableNameOnly=DEGSON|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Library Ref|TableNameOnly=DEGSON|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=DEGSON.Footprint Path|TableNameOnly=DEGSON|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Library Path|TableNameOnly=DEGSON|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=DEGSON.Footprint Ref|TableNameOnly=DEGSON|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Footprint Path|TableNameOnly=DEGSON|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=HIROSE.Part Number|TableNameOnly=HIROSE|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Footprint Ref|TableNameOnly=DEGSON|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=HIROSE.Library Ref|TableNameOnly=HIROSE|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DEGSON.Comment|TableNameOnly=DEGSON|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=HIROSE.Library Path|TableNameOnly=HIROSE|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Part Number|TableNameOnly=HIROSE|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=HIROSE.Footprint Path|TableNameOnly=HIROSE|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Library Ref|TableNameOnly=HIROSE|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=HIROSE.Footprint Ref|TableNameOnly=HIROSE|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Library Path|TableNameOnly=HIROSE|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=MOLEX.Part Number|TableNameOnly=MOLEX|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Footprint Path|TableNameOnly=HIROSE|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=MOLEX.Library Ref|TableNameOnly=MOLEX|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Footprint Ref|TableNameOnly=HIROSE|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HIROSE.Comment|TableNameOnly=HIROSE|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Part Number|TableNameOnly=MOLEX|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Library Ref|TableNameOnly=MOLEX|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=OTHER.Part Number|TableNameOnly=OTHER|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=OTHER.Library Ref|TableNameOnly=OTHER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=OTHER.Library Path|TableNameOnly=OTHER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=OTHER.Footprint Path|TableNameOnly=OTHER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOLEX.Comment|TableNameOnly=MOLEX|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
+Options=FieldName=MORETHANALL.Part Number|TableNameOnly=MORETHANALL|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=MORETHANALL.Library Ref|TableNameOnly=MORETHANALL|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=MORETHANALL.Library Path|TableNameOnly=MORETHANALL|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=MORETHANALL.Comment|TableNameOnly=MORETHANALL|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=MORETHANALL.Footprint Path|TableNameOnly=MORETHANALL|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=MORETHANALL.Footprint Ref|TableNameOnly=MORETHANALL|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=OTHER.Part Number|TableNameOnly=OTHER|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=OTHER.Library Ref|TableNameOnly=OTHER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=OTHER.Library Path|TableNameOnly=OTHER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=OTHER.Footprint Path|TableNameOnly=OTHER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
 Options=FieldName=OTHER.Footprint Ref|TableNameOnly=OTHER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=OTHER.Comment|TableNameOnly=OTHER|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

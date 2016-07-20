@@ -36,3 +36,5 @@ Options=FieldName=Crystall And Oscillator.Library Path|TableNameOnly=Crystall An
 Options=FieldName=Crystall And Oscillator.Footprint Path|TableNameOnly=Crystall And Oscillator|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
 Options=FieldName=Crystall And Oscillator.Footprint Ref|TableNameOnly=Crystall And Oscillator|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Crystall And Oscillator.Comment|TableNameOnly=Crystall And Oscillator|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
