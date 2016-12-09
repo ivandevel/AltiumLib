@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Connector.accdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\Connector.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,8 +11,8 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access 2007
-LibraryDatabasePath=Connector.accdb
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Connector.mdb
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
@@ -26,54 +26,36 @@ TableName=AUK
 Enabled=True
 UserWhere=0
 UserWhereText=[Part Number] = '{Part Number}'
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=89|Library Ref0=83|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=89|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=435|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table2]
 SchemaName=
 TableName=DEGSON
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=117|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=117|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=117|PackageDescription0=124|Pin Count0=74|Case0=117|Family0=56|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=117|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=294|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=53
 [Table3]
 SchemaName=
 TableName=HIROSE
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=97|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=97|PackageDescription0=204|Pin Count0=74|Case0=97|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=97|Part Description0=204|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=277|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=69|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table4]
 SchemaName=
 TableName=MOLEX
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=98|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=68|Part Description0=332|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=293|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table5]
 SchemaName=
 TableName=MORETHANALL
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=116|Library Ref0=116|Library Path0=135|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Footprint Path0=135|Footprint Ref0=116|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=116|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=426|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=85
 [Table6]
 SchemaName=
 TableName=OTHER
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=76|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=97|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [FieldMap1]
 Options=FieldName=AUK.Part Number|TableNameOnly=AUK|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]

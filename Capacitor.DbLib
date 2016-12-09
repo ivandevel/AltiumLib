@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Capacitor.accdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\Capacitor.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,69 +11,51 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access 2007
-LibraryDatabasePath=Capacitor.accdb
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Capacitor.mdb
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Tantalum
+LastFocusedTable=Ceramic SMD
 [Table1]
 SchemaName=
 TableName=Ceramic SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=283|Library Ref0=132|Library Path0=130|Footprint Path0=110|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=63|Status0=106|Voltage0=63|TC0=81|Tolerance0=72|Part Description0=334|Manufacturer0=103|Manufacturer Part Number0=205|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=205|Manufacturer1 ComponentHeight0=198|HelpURL0=501|Author0=91|CreateDate0=80|LatestRevisionDate0=120|Table0=89|Manufacturer Part Number 20=169
 [Table2]
 SchemaName=
 TableName=Ceramic THD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=122|Library Ref0=97|Library Path0=130|Footprint Path0=127|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=72
 [Table3]
 SchemaName=
 TableName=Electrolytic THD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=218|Library Ref0=77|Library Path0=130|Footprint Path0=117|Footprint Ref0=114|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=87
 [Table4]
 SchemaName=
 TableName=Film THD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=98|Library Ref0=97|Library Path0=130|Footprint Path0=127|Footprint Ref0=202|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table5]
 SchemaName=
 TableName=MLCC (Yageo)
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=283|Library Ref0=117|Library Path0=130|Footprint Path0=110|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=63|Status0=106|Voltage0=63|TC0=81|Tolerance0=72|Part Description0=334|Manufacturer0=103|Manufacturer Part Number0=205|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=205|Manufacturer1 ComponentHeight0=198|HelpURL0=501|Author0=91|CreateDate0=80|LatestRevisionDate0=120|Table0=89|Manufacturer Part Number 20=169
 [Table6]
 SchemaName=
 TableName=Tantalum
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=124|Library Ref0=77|Library Path0=130|Footprint Path0=126|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|Pin Count0=74|PackageDescription0=124|Value0=52|Status0=55|Voltage0=63|TC0=35|Tolerance0=72|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Manufacturer1 Example0=144|Manufacturer1 Part Number0=166|Manufacturer1 ComponentHeight0=198|HelpURL0=67|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=55
 [FieldMap1]
 Options=FieldName=Ceramic SMD.Part Number|TableNameOnly=Ceramic SMD|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
