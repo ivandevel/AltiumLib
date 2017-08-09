@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\ICs And Semiconductors.accdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\ICs And Semiconductors.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,24 +11,21 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access 2007
-LibraryDatabasePath=ICs And Semiconductors.accdb
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=ICs And Semiconductors.mdb
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Analog and Interface
+LastFocusedTable=Transistors
 [Table1]
 SchemaName=
 TableName=Analog and Interface
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=89|Library Ref0=89|Library Path0=96|Footprint Path0=104|Footprint Ref0=102|Comment0=72|Component Kind0=110|Component Type0=110|Device0=89|Footprint0=72|PackageDescription0=124|Status0=55|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=52|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=116
 [Table2]
 SchemaName=
 TableName=Diode

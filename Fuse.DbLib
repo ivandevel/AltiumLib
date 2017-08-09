@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Fuse.accdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\Fuse.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,8 +11,8 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access 2007
-LibraryDatabasePath=C:\yakuzaa_mailcloud\AltiumLib\MyLib\Fuse.accdb
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=C:\mylib\Fuse.mdb
 DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=

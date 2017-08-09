@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\Resistor.mdb;Persist Security Info=False
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\Resistor.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,8 +11,8 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access
-LibraryDatabasePath=Resistor.mdb
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=Resistor.xls
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
@@ -28,20 +28,44 @@ UserWhere=0
 UserWhereText=
 [Table2]
 SchemaName=
-TableName=SMD
-Enabled=True
+TableName=NTC$
+Enabled=False
 UserWhere=0
 UserWhereText=
 [Table3]
 SchemaName=
-TableName=THD
+TableName=SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table4]
 SchemaName=
+TableName=SMD$
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=THD
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table6]
+SchemaName=
+TableName=THD$
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table7]
+SchemaName=
 TableName=Variable
 Enabled=True
+UserWhere=0
+UserWhereText=
+[Table8]
+SchemaName=
+TableName=Variable$
+Enabled=False
 UserWhere=0
 UserWhereText=
 [FieldMap1]
