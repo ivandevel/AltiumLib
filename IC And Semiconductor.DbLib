@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mylib\ICs And Semiconductors.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\mylib\IC And Semiconductor.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,156 +11,44 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Access
-LibraryDatabasePath=ICs And Semiconductors.mdb
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=IC And Semiconductor.xls
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Transistors
+LastFocusedTable=Analog and Interface$
 [Table1]
 SchemaName=
-TableName=Analog and Interface
+TableName=Analog and Interface$
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table2]
 SchemaName=
-TableName=Diode
+TableName=Diode$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=137|Library Ref0=93|Library Path0=112|Footprint Path0=102|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Device0=74|Footprint0=72|Status0=55|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=50|PackageDescription0=124
-[Table3]
-SchemaName=
-TableName=Microcontrollers
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=97|Library Ref0=142|Library Path0=96|Footprint Path0=104|Footprint Ref0=102|Comment0=72|Component Kind0=110|Component Type0=110|Device0=97|Footprint0=72|PackageDescription0=275|Status0=55|Part Description0=105|Manufacturer0=127|Manufacturer Part Number0=160|Pin Count0=74|Case0=59|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=538|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=92
-[Table4]
-SchemaName=
-TableName=Power
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Library Path0=96|Footprint Path0=102|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Device0=72|Footprint0=72|PackageDescription0=124|Status0=55|Part Description0=105|Manufacturer0=125|Manufacturer Part Number0=160|Pin Count0=74|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=50
-[Table5]
-SchemaName=
-TableName=RF
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Library Path0=96|Footprint Path0=104|Footprint Ref0=102|Comment0=72|Component Kind0=110|Component Type0=110|Device0=86|Footprint0=72|PackageDescription0=124|Status0=55|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=47|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=59|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=50
-[Table6]
-SchemaName=
-TableName=Regulators
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Library Path0=96|Footprint Path0=102|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Device0=80|Footprint0=72|PackageDescription0=124|Status0=55|Part Description0=423|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=54|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=64
-[Table7]
-SchemaName=
-TableName=Transistors
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=163|Library Path0=131|Footprint Path0=102|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Device0=76|Footprint0=72|Status0=55|Part Description0=381|Manufacturer0=93|Manufacturer Part Number0=160|Pin Count0=74|Case0=54|Mounted0=71|Socket0=57|SMD0=47|ComponentHeight0=119|Author0=69|HelpURL0=67|ComponentLink1URL0=131|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink1Description0=170|CreateDate0=80|LatestRevisionDate0=120|Table0=63|PackageDescription0=124
 [FieldMap1]
-Options=FieldName=Analog and Interface.Part Number|TableNameOnly=Analog and Interface|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Analog and Interface$.Part Number|TableNameOnly=Analog and Interface$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Analog and Interface.Library Ref|TableNameOnly=Analog and Interface|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Analog and Interface$.Library Ref|TableNameOnly=Analog and Interface$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Analog and Interface.Library Path|TableNameOnly=Analog and Interface|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Analog and Interface$.Library Path|TableNameOnly=Analog and Interface$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Analog and Interface.Footprint Path|TableNameOnly=Analog and Interface|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Analog and Interface$.Footprint Path|TableNameOnly=Analog and Interface$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Analog and Interface.Footprint Ref|TableNameOnly=Analog and Interface|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Analog and Interface$.Footprint Ref|TableNameOnly=Analog and Interface$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Analog and Interface.Comment|TableNameOnly=Analog and Interface|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode$.Part Number|TableNameOnly=Diode$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Diode.Part Number|TableNameOnly=Diode|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode$.Library Ref|TableNameOnly=Diode$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Diode.Library Ref|TableNameOnly=Diode|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode$.Library Path|TableNameOnly=Diode$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Diode.Library Path|TableNameOnly=Diode|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode$.Footprint Path|TableNameOnly=Diode$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Diode.Footprint Path|TableNameOnly=Diode|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
-Options=FieldName=Diode.Footprint Ref|TableNameOnly=Diode|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
-Options=FieldName=Diode.Comment|TableNameOnly=Diode|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
-Options=FieldName=Microcontrollers.Part Number|TableNameOnly=Microcontrollers|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
-Options=FieldName=Microcontrollers.Library Ref|TableNameOnly=Microcontrollers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
-Options=FieldName=Microcontrollers.Library Path|TableNameOnly=Microcontrollers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
-Options=FieldName=Microcontrollers.Footprint Path|TableNameOnly=Microcontrollers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
-Options=FieldName=Microcontrollers.Footprint Ref|TableNameOnly=Microcontrollers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
-Options=FieldName=Microcontrollers.Comment|TableNameOnly=Microcontrollers|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
-Options=FieldName=Power.Part Number|TableNameOnly=Power|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap20]
-Options=FieldName=Power.Library Ref|TableNameOnly=Power|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap21]
-Options=FieldName=Power.Library Path|TableNameOnly=Power|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap22]
-Options=FieldName=Power.Footprint Path|TableNameOnly=Power|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap23]
-Options=FieldName=Power.Footprint Ref|TableNameOnly=Power|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
-Options=FieldName=Power.Comment|TableNameOnly=Power|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
-Options=FieldName=RF.Part Number|TableNameOnly=RF|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap26]
-Options=FieldName=RF.Library Ref|TableNameOnly=RF|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap27]
-Options=FieldName=RF.Library Path|TableNameOnly=RF|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap28]
-Options=FieldName=RF.Footprint Path|TableNameOnly=RF|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap29]
-Options=FieldName=RF.Footprint Ref|TableNameOnly=RF|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap30]
-Options=FieldName=RF.Comment|TableNameOnly=RF|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap31]
-Options=FieldName=Regulators.Part Number|TableNameOnly=Regulators|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap32]
-Options=FieldName=Regulators.Library Ref|TableNameOnly=Regulators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap33]
-Options=FieldName=Regulators.Library Path|TableNameOnly=Regulators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap34]
-Options=FieldName=Regulators.Footprint Path|TableNameOnly=Regulators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap35]
-Options=FieldName=Regulators.Footprint Ref|TableNameOnly=Regulators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap36]
-Options=FieldName=Regulators.Comment|TableNameOnly=Regulators|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap37]
-Options=FieldName=Transistors.Part Number|TableNameOnly=Transistors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap38]
-Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap39]
-Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap40]
-Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap41]
-Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap42]
-Options=FieldName=Transistors.Comment|TableNameOnly=Transistors|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode$.Footprint Ref|TableNameOnly=Diode$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
