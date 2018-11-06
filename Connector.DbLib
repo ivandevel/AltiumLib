@@ -5,27 +5,27 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\mylib\Connecto
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=Connector.xls
-DatabasePathRelative=1
+LibraryDatabasePath=C:\mylib\Connector.xls
+DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=AUK
+LastFocusedTable=DEGSON$
 [Table1]
 SchemaName=
 TableName=AUK
 Enabled=True
 UserWhere=0
-UserWhereText=[Part Number] = '{Part Number}'
+UserWhereText=
 [Table2]
 SchemaName=
 TableName=AUK$
@@ -44,6 +44,9 @@ TableName=DEGSON$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=123|Library Ref0=77|Library Path0=135|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=117|PackageDescription0=124|Pin Count0=74|Case0=117|Footprint Path0=135|Footprint Ref0=117|Family0=56|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=117|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=294|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=53
 [Table5]
 SchemaName=
 TableName=HIROSE
@@ -103,124 +106,112 @@ Options=FieldName=AUK.Footprint Path|TableNameOnly=AUK|FieldNameOnly=Footprint P
 [FieldMap5]
 Options=FieldName=AUK.Footprint Ref|TableNameOnly=AUK|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=AUK.Comment|TableNameOnly=AUK|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
 Options=FieldName=AUK$.Part Number|TableNameOnly=AUK$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap8]
+[FieldMap7]
 Options=FieldName=AUK$.Library Ref|TableNameOnly=AUK$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
+[FieldMap8]
 Options=FieldName=AUK$.Library Path|TableNameOnly=AUK$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
+[FieldMap9]
 Options=FieldName=AUK$.Footprint Path|TableNameOnly=AUK$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
+[FieldMap10]
 Options=FieldName=AUK$.Footprint Ref|TableNameOnly=AUK$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
+[FieldMap11]
 Options=FieldName=DEGSON.Part Number|TableNameOnly=DEGSON|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
+[FieldMap12]
 Options=FieldName=DEGSON.Library Ref|TableNameOnly=DEGSON|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
+[FieldMap13]
 Options=FieldName=DEGSON.Library Path|TableNameOnly=DEGSON|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
+[FieldMap14]
 Options=FieldName=DEGSON.Footprint Path|TableNameOnly=DEGSON|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
+[FieldMap15]
 Options=FieldName=DEGSON.Footprint Ref|TableNameOnly=DEGSON|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
-Options=FieldName=DEGSON.Comment|TableNameOnly=DEGSON|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
+[FieldMap16]
 Options=FieldName=DEGSON$.Part Number|TableNameOnly=DEGSON$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
+[FieldMap17]
 Options=FieldName=DEGSON$.Library Ref|TableNameOnly=DEGSON$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap20]
+[FieldMap18]
 Options=FieldName=DEGSON$.Library Path|TableNameOnly=DEGSON$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap21]
+[FieldMap19]
 Options=FieldName=DEGSON$.Footprint Path|TableNameOnly=DEGSON$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap22]
+[FieldMap20]
 Options=FieldName=DEGSON$.Footprint Ref|TableNameOnly=DEGSON$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap23]
+[FieldMap21]
 Options=FieldName=HIROSE.Part Number|TableNameOnly=HIROSE|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
+[FieldMap22]
 Options=FieldName=HIROSE.Library Ref|TableNameOnly=HIROSE|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
+[FieldMap23]
 Options=FieldName=HIROSE.Library Path|TableNameOnly=HIROSE|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap26]
+[FieldMap24]
 Options=FieldName=HIROSE.Footprint Path|TableNameOnly=HIROSE|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap27]
+[FieldMap25]
 Options=FieldName=HIROSE.Footprint Ref|TableNameOnly=HIROSE|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap28]
-Options=FieldName=HIROSE.Comment|TableNameOnly=HIROSE|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap29]
+[FieldMap26]
 Options=FieldName=HIROSE$.Part Number|TableNameOnly=HIROSE$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap30]
+[FieldMap27]
 Options=FieldName=HIROSE$.Library Ref|TableNameOnly=HIROSE$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap31]
+[FieldMap28]
 Options=FieldName=HIROSE$.Library Path|TableNameOnly=HIROSE$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap32]
+[FieldMap29]
 Options=FieldName=HIROSE$.Footprint Path|TableNameOnly=HIROSE$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap33]
+[FieldMap30]
 Options=FieldName=HIROSE$.Footprint Ref|TableNameOnly=HIROSE$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap34]
+[FieldMap31]
 Options=FieldName=MOLEX.Part Number|TableNameOnly=MOLEX|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap35]
+[FieldMap32]
 Options=FieldName=MOLEX.Library Ref|TableNameOnly=MOLEX|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap36]
+[FieldMap33]
 Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap37]
+[FieldMap34]
 Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap38]
+[FieldMap35]
 Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap39]
-Options=FieldName=MOLEX.Comment|TableNameOnly=MOLEX|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap40]
+[FieldMap36]
 Options=FieldName=MOLEX$.Part Number|TableNameOnly=MOLEX$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap41]
+[FieldMap37]
 Options=FieldName=MOLEX$.Library Ref|TableNameOnly=MOLEX$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap42]
+[FieldMap38]
 Options=FieldName=MOLEX$.Library Path|TableNameOnly=MOLEX$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap43]
+[FieldMap39]
 Options=FieldName=MOLEX$.Footprint Path|TableNameOnly=MOLEX$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap44]
+[FieldMap40]
 Options=FieldName=MOLEX$.Footprint Ref|TableNameOnly=MOLEX$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap45]
+[FieldMap41]
 Options=FieldName=MORETHANALL.Part Number|TableNameOnly=MORETHANALL|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap46]
+[FieldMap42]
 Options=FieldName=MORETHANALL.Library Ref|TableNameOnly=MORETHANALL|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap47]
+[FieldMap43]
 Options=FieldName=MORETHANALL.Library Path|TableNameOnly=MORETHANALL|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap48]
-Options=FieldName=MORETHANALL.Comment|TableNameOnly=MORETHANALL|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap49]
+[FieldMap44]
 Options=FieldName=MORETHANALL.Footprint Path|TableNameOnly=MORETHANALL|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap50]
+[FieldMap45]
 Options=FieldName=MORETHANALL.Footprint Ref|TableNameOnly=MORETHANALL|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap51]
+[FieldMap46]
 Options=FieldName=MORETHANALL$.Part Number|TableNameOnly=MORETHANALL$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap52]
+[FieldMap47]
 Options=FieldName=MORETHANALL$.Library Ref|TableNameOnly=MORETHANALL$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap53]
+[FieldMap48]
 Options=FieldName=MORETHANALL$.Library Path|TableNameOnly=MORETHANALL$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap54]
+[FieldMap49]
 Options=FieldName=MORETHANALL$.Footprint Path|TableNameOnly=MORETHANALL$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap55]
+[FieldMap50]
 Options=FieldName=MORETHANALL$.Footprint Ref|TableNameOnly=MORETHANALL$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap56]
+[FieldMap51]
 Options=FieldName=OTHER.Part Number|TableNameOnly=OTHER|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap57]
+[FieldMap52]
 Options=FieldName=OTHER.Library Ref|TableNameOnly=OTHER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap58]
+[FieldMap53]
 Options=FieldName=OTHER.Library Path|TableNameOnly=OTHER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap59]
+[FieldMap54]
 Options=FieldName=OTHER.Footprint Path|TableNameOnly=OTHER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap60]
+[FieldMap55]
 Options=FieldName=OTHER.Footprint Ref|TableNameOnly=OTHER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap61]
-Options=FieldName=OTHER.Comment|TableNameOnly=OTHER|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap62]
+[FieldMap56]
 Options=FieldName=OTHER$.Part Number|TableNameOnly=OTHER$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap63]
+[FieldMap57]
 Options=FieldName=OTHER$.Library Ref|TableNameOnly=OTHER$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap64]
+[FieldMap58]
 Options=FieldName=OTHER$.Library Path|TableNameOnly=OTHER$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap65]
+[FieldMap59]
 Options=FieldName=OTHER$.Footprint Path|TableNameOnly=OTHER$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap66]
+[FieldMap60]
 Options=FieldName=OTHER$.Footprint Ref|TableNameOnly=OTHER$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
