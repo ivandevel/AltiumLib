@@ -1,31 +1,34 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\mylib\Connector.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\AltiumLib\Connector.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=C:\mylib\Connector.xls
-DatabasePathRelative=0
+LibraryDatabasePath=Connector.xls
+DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=DEGSON$
+LastFocusedTable=AUK
 [Table1]
 SchemaName=
 TableName=AUK
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=89|Library Ref0=83|Library Path0=135|Footprint Path0=135|Footprint Ref0=92|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=72|PackageDescription0=124|Pin Count0=74|Case0=47|Family0=55|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=89|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=435|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=50
 [Table2]
 SchemaName=
 TableName=AUK$
@@ -44,9 +47,6 @@ TableName=DEGSON$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=123|Library Ref0=77|Library Path0=135|Comment0=72|Component Kind0=110|Component Type0=110|Footprint0=117|PackageDescription0=124|Pin Count0=74|Case0=117|Footprint Path0=135|Footprint Ref0=117|Family0=56|Mounted0=71|Socket0=57|SMD0=47|Status0=55|SCEM0=52|Device0=117|Part Description0=105|Manufacturer0=93|Manufacturer Part Number0=160|ComponentHeight0=119|HelpURL0=67|ComponentLink1URL0=294|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|Author0=59|CreateDate0=80|LatestRevisionDate0=120|Table0=53
 [Table5]
 SchemaName=
 TableName=HIROSE
